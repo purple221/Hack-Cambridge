@@ -1,0 +1,29 @@
+* {
+  font-family: "Inter", sans-serif;
+}
+html {
+  scroll-behavior: smooth;
+}
+img {
+  position: relative;
+}
+.aboutBlob {
+  display: flex;
+  justify-content: center;
+}
+
+.AboutHeading {
+  color: white;
+  position: absolute;
+  font-size: 18px;
+  font-weight: 700;
+  font-size: 30px;
+  top: 50%;
+  left: 60%;
+  transform: translate(-50%, -50%);
+}
+
+.description p {
+  width: 90%;
+  text-align: justify;
+}
